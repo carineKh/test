@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shapes", "shapes\shapes.vcxitems", "{A7420513-613C-44F6-A7E4-155B92D63D47}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "application", "application\application.vcxproj", "{42A1826F-2378-432D-B96E-004DD5BE0531}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		shapes\shapes.vcxitems*{42a1826f-2378-432d-b96e-004dd5be0531}*SharedItemsImports = 4
+		shapes\shapes.vcxitems*{a7420513-613c-44f6-a7e4-155b92d63d47}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42A1826F-2378-432D-B96E-004DD5BE0531}.Debug|x64.ActiveCfg = Debug|x64
+		{42A1826F-2378-432D-B96E-004DD5BE0531}.Debug|x64.Build.0 = Debug|x64
+		{42A1826F-2378-432D-B96E-004DD5BE0531}.Debug|x86.ActiveCfg = Debug|Win32
+		{42A1826F-2378-432D-B96E-004DD5BE0531}.Debug|x86.Build.0 = Debug|Win32
+		{42A1826F-2378-432D-B96E-004DD5BE0531}.Release|x64.ActiveCfg = Release|x64
+		{42A1826F-2378-432D-B96E-004DD5BE0531}.Release|x64.Build.0 = Release|x64
+		{42A1826F-2378-432D-B96E-004DD5BE0531}.Release|x86.ActiveCfg = Release|Win32
+		{42A1826F-2378-432D-B96E-004DD5BE0531}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2029AB3-3325-4C28-88A3-3777637520EF}
+	EndGlobalSection
+EndGlobal
